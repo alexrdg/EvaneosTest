@@ -2,6 +2,12 @@
 
 class Placeholder
 {
+    const QUOTE_SUMMARY_HTML = 'summary_html';
+    const QUOTE_SUMMARY = 'summary';
+    const QUOTE_DESTINATION_NAME = 'destination_name';
+    const QUOTE_DESTINATION_LINK = 'destination_link';
+    const USER_FIRSTNAME = 'first_name';
+
     public $id;
     public $name;
     public $type;
