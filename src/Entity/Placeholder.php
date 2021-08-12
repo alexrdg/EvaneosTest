@@ -12,4 +12,8 @@ class Placeholder
         $this->name = $name;
         $this->type = $type;
     }
+
+    public static function render(Placeholder $placeholder) {
+        return sprintf("[%s:%s]", $placeholder->type, $placeholder->name);
+    }
 }
